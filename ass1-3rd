@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+  <title>
+  </title>
+<body>
+  <table border="1">
+   <tr>
+     <th>Name of Train</th>
+      <th>place</th>
+      <th>destination</th>
+      <th>time arrival departure</th>
+      <th>fare</th>
+    </tr>
+    
+       <tr>
+     <th>rajdhani</th>
+      <th>mumbai</th>
+      <th>delhi</th>
+      <th>07.30  08.45</th>
+      <th>Rs.989.00</th>
+    </tr>
+    
+       <tr>
+     <th>madras mail</th>
+      <th>mumbai</th>
+      <th>madras</th>
+      <th>09.00 10.15</th>
+      <th>Rs.450.00</th>
+    </tr>
+    
+       <tr>
+     <th>konkan exp.</th>
+      <th>mumbai</th>
+      <th>mangalore</th>
+      <th>13.30 14.45</th>
+      <th>Rs.756.00</th>
+    </tr>
+    
+       <tr>
+     <th>deccan exp.</th>
+      <th>mumbai</th>
+      <th>pune</th>
+      <th>16.00 17.30</th>
+      <th>Rs.345.00</th>
+    </tr>
+    
+  </table>     
+</body>
+</html>\
