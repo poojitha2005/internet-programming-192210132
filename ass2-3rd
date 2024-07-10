@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details Form</title>
+</head>
+<body>
+    <h1>User Details Form</h1>
+    <form action="#" method="post">
+        <!-- User Name -->
+        <label for="userName">Name:</label>
+        <input type="text" id="userName" name="userName" required>
+        <br><br>
+
+        <!-- Address -->
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" cols="50" required></textarea>
+        <br><br>
+
+        <!-- Subject of Book -->
+        <fieldset>
+            <legend>Subject of Book:</legend>
+            <label>
+                <input type="radio" name="subject" value="Fiction" required> Fiction
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="subject" value="Non-Fiction"> Non-Fiction
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="subject" value="Science"> Science
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="subject" value="History"> History
+            </label>
+        </fieldset>
+        <br>
+
+        <!-- Favorite Author -->
+        <label for="author">Favorite Author:</label>
+        <select id="author" name="author" required>
+            <option value="J.K. Rowling">J.K. Rowling</option>
+            <option value="George R.R. Martin">George R.R. Martin</option>
+            <option value="J.R.R. Tolkien">J.R.R. Tolkien</option>
+            <option value="Agatha Christie">Agatha Christie</option>
+            <option value="Stephen King">Stephen King</option>
+        </select>
+        <br><br>
+
+        <!-- Comments on Last Book Read -->
+        <label for="comments">Comments on Last Book Read:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        <br><br>
+
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
