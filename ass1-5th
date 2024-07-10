@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Name - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Company Name</h1>
+        <p>Leading Innovation in Technology</p>
+    </header>
+    
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Company Name is a leading provider of innovative technology solutions. Founded in [Year], we have been dedicated to pushing the boundaries of technology and delivering top-notch services to our clients worldwide.</p>
+        </section>
+        
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Custom Software Development</li>
+                <li>Cloud Solutions</li>
+                <li>Data Analytics</li>
+                <li>IT Consulting</li>
+            </ul>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For more information about our services, please get in touch with us:</p>
+            <address>
+                <strong>Company Name</strong><br>
+                123 Technology Drive<br>
+                Innovation City, TX 12345<br>
+                <a href="mailto:info@company.com">info@company.com</a><br>
+                <a href="tel:+1234567890">+1 234 567 890</a>
+            </address>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
