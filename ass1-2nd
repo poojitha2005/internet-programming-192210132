@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poojitha's Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Poojitha's Resume</h1>
+
+<h2>Contact Information</h2>
+<table>
+    <tr>
+        <th>Email</th>
+        <td><a href="poojithavedicharla7099@gmail.com">poojithavedicharla7099@gmail.com</a></td>
+    </tr>
+    <tr>
+        <th>Phone</th>
+        <td>9390234227</td>
+    </tr>
+    <tr>
+        <th>LinkedIn</th>
+        <td><a href="https://www.linkedin.com/in/poojitha" target="_blank">linkedin.com/in/poojitha</a></td>
+    </tr>
+</table>
+
+<h2>Summary</h2>
+<p><strong>Experienced Software Developer</strong> skilled in web development and software engineering.</p>
+
+<h2>Skills</h2>
+<ul>
+    <li><em>C, C++, Python,html,css,javascript</em></li>
+</ul>
+
+<h2>key Achievements</h2>
+<ol>
+    <li><strong>bulding the futer</strong></li>
+    <li><strong>managing the largest accounts</strong></li>
+    <li><strong>work-life balance</strong></li>
+</ol>
+
+<h2>Education</h2>
+<table>
+    <tr>
+        <th>Degree</th>
+        <th>Institution</th>
+        <th>Year</th>
+    </tr>
+    <tr>
+        <td>B.Tech in Computer Science</td>
+        <td>Saveetha University</td>
+        <td>3rd</td>
+    </tr>
+</table>
+
+</body>
+</html>
