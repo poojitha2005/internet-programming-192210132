@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 200vh; /* To allow for scrolling */
+}
+
+.background-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 50%;
+    background-image: url('your-image-url.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(-50%, -50%) rotate(90deg);
+    pointer-events: none; /* To make sure content is clickable */
+    z-index: -1; /* To place it behind other content */
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image Example</title>
+    <style>
+        /* Include the CSS rule here */
+    </style>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="content">
+        <h1>Welcome to My Web Page</h1>
+        <p>Scroll down to see the effect.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+</body>
+</html>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 200vh; /* To allow for scrolling */
+}
+
+.background-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 50%;
+    background-image: url('your-image-url.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(-50%, -50%) rotate(90deg);
+    pointer-events: none; /* To make sure content is clickable */
+    z-index: -1; /* To place it behind other content */
+}
