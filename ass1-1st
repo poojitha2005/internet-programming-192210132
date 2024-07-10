@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+  <title>
+  </title>
+<body>
+  <table border="1">
+    <tr>
+      <th>Image(20%)
+      </th>
+      
+      <th>company Name(80%)
+      </th>
+    </tr>
+ 
+    <tr>
+       <th>
+    </th>
+      
+       <th>Schedule
+    </th>
+    </tr>
+      <tr>
+         <th>1
+    </th>
+        
+         <th rowspan="2">
+                      Type 1
+    </th>
+    </tr>
+    
+      <tr>
+         <th>2
+    </th>
+        
+         <th>
+    </th>
+    </tr>
+    <tr>
+      <th>
+        3</th>
+      <th rowspan="2">
+        Type 2
+      </th>
+    </tr>
+    <tr>
+      <th>
+        4</th>
+      <th>
+      </th>
+    </tr>
+  </table>     
+</body>
+</html>
