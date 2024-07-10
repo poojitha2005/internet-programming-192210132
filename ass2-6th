@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Background Image</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+        <p>Experience the beauty of a fixed background image</p>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Section 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
+        <section>
+            <h2>Section 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
+        <section>
+            <h2>Section 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
+    </div>
+</body>
+</html>
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed; /* Fixed background image */
+    background-size: cover; /* Ensure the background covers the entire page */
+    color: #333;
+}
+
+header {
+    background-color: rgba(76, 175, 80, 0.8); /* Semi-transparent background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    text-indent: 20px; /* Indentation for the first line of each paragraph */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    section {
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
