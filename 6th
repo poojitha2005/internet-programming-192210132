@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Institute</title>
+    <style>
+        body {
+            background-color: lavender;
+            color: navy;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            color: maroon;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        .button {
+            background-color: orange;
+            border: 2px solid navy;
+            padding: 10px 20px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Welcome to ABC Institute</h1>
+
+<p>Empowering students for a brighter future.</p>
+
+<div>
+    <button class="button">Learn More</button>
+    <button class="button">Contact Us</button>
+</div>
+
+</body>
+</html>
