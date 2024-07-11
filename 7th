@@ -1,0 +1,36 @@
+[11:42 PM, 7/11/2024] Poojitha: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Reservation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Welcome to XYZ Bus Reservations</h1>
+
+<p>Book your journey with us!</p>
+
+<div>
+    <button class="button">Reserve Now</button>
+    <button class="button">Contact Us</button>
+</div>
+
+</body>
+</html>
+[11:42 PM, 7/11/2024] Poojitha: body {
+    background-color: lightyellow;
+    color: darkgreen;
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+    color: darkblue;
+}
+p {
+    font-size: 1.5em;
+}
+.button {
+    background-color: pink;
+    border:
