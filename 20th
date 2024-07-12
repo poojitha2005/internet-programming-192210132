@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        fetch('https://example.com/data') // Replace with your server URL
+            .then(response => response.text())
+            .then(text => {
+                let data = JSON.parse(text);
+                console.log(data);
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>
