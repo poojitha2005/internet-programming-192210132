@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Handling</title>
+</head>
+<body onload="loadFunction()">
+<p id="text" onmouseover="mouseOver()" onmouseout="mouseOut()">Hover over this text.</p>
+<script>
+function loadFunction() { alert("Page loaded!"); }
+function mouseOver() { document.getElementById('text').style.color = "red"; }
+function mouseOut() { document.getElementById('text').style.color = "black"; }
+</script>
+</body>
+</html>
