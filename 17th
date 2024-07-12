@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <button id="myButton">Click Me</button>
+    <div id="myDiv" style="margin-top: 20px;">This is a div</div>
+    <input type="text" id="myInput" value="Old Value" style="margin-top: 20px;">
+    <script>
+        document.getElementById('myButton').onclick = function() {
+            document.getElementById('myDiv').style.backgroundColor = 'yellow';
+            document.getElementById('myInput').value = 'New Value';
+            alert('The result is: ' + (5 + 3));
+        };
+    </script>
+</body>
+</html>
